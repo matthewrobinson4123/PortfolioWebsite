@@ -4,13 +4,23 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: "Zen Kurenaido", "Zen Kaku Gothic Antique", "Zen Old Mincho", "sans-serif";
+    margin: 0 auto;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
 .fab {
-    font-family: "Font Awesome 5 Brands";
-    font-weight: 400;
-    font-size: 40;
+    font-size: 2em;
+    width: 2em;
 }
 
-.fa-html5:before{
-    content: "\f13b";
-}
