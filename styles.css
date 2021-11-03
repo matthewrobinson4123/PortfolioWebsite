@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+    font-size: 40;
+}
+
+.fa-html5:before{
+    content: "\f13b";
+}
