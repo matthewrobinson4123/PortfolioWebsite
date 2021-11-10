@@ -1,13 +1,13 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     text-align: center;
 }
 
 body{
     font-family: "Zen Kurenaido", "Zen Kaku Gothic Antique", "Zen Old Mincho", "sans-serif";
-    margin: 0 auto;
+    margin: 0px auto;
     max-width: 900px;
     display: flex;
     flex-direction: column;
@@ -17,11 +17,15 @@ main{
     background-image: none;
 }
 
-.skills-container{
+.skills-container, .contact-container{
     display: flex;
     width: 100%;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.contact-container{
+    justify-content: center;
 }
 
 .fab {
