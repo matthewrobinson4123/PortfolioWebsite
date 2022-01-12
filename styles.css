@@ -3,23 +3,54 @@
     padding: 0px;
     box-sizing: border-box;
     text-align: center;
-    background-color: dimgrey;
+    text-decoration: none;
 }
 
 header{
-    background-color: black;
+    background: #000;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
 }
 
-.navbar{
-    text-decoration: none;
+nav {
+    padding-top: 1rem;
+}
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li{
+    padding: 5px;
+    margin: 5px;
+    line-height: 50px;
+    width: auto;
+    height: 100%;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav li:hover{
+    background-color: darkred;
+}
+
+nav li:active{
+    background-color: red;
 }
 
 body{
     font-family: "Zen Kurenaido", "Zen Kaku Gothic Antique", "Zen Old Mincho", "sans-serif";
     margin: 0px auto;
-    max-width: 900px;
     display: flex;
     flex-direction: column;
+    font-size: 16px;
+    background-color: dimgrey;
 }
 
 main{
@@ -33,12 +64,13 @@ main{
     flex-wrap: wrap;
 }
 
-.contact-container{
-    justify-content: center;
-}
 
 .fab {
     font-size: 2em;
     width: 2em;
 }
 
+.main{
+    margin: 100px auto;
+    margin-bottom: 0px;
+}

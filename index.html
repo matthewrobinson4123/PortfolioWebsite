@@ -12,203 +12,211 @@
 
     <body>
         <header>
-            <nav class="navbar">
+            <nav>
                 <ul>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href=#experience>Experience</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#hobbies">Hobbies</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
+                    <a href="#about"><li>About Me</li></a>
+                    <a href=#experience><li>Experience</li></a>
+                    <a href="#skills"><li>Skills</li></a>
+                    <a href="#hobbies"><li>Hobbies</li></a>
+                    <a href="./contact.html"><li>Contact</li></a>
                 </ul>
             </nav>
         </header>
-        
+
         <div class="main">
-            <h1>Matthew Robinson</h1>
+
+            <div class="me">
+                <h1>Matthew Robinson</h1>
+            </div>
+            
+        
+
+            <article class="about-me" id="about">
+                <h2>About Me</h2>
+                <p>
+                    Hi! Welcome to my portfolio website! My name is <span style="font-weight: bold;">Matthew Robinson</span> and I am a programmer! I graduated from the University
+                    of Western Ontario with a Bachelor of Science in Computer Science. I have always had a love for puzzles and in coding I have the opportunity to solve countless puzzles! 
+                    I've spent my entire life playing video games. As I learned more about programming I discovered that I would pause while playing to try and understand how the 
+                    code in the game would be written in order for it to work. I have experience with several programming languages from school, however, I have the most experience with
+                    Object Oriented languages such as Java and Python.
+                </p>
+                <p>
+                    On the non-technical side I am eager to learn new things and expand on my current abilities.
+                    I can work collaboratively with others to achieve company standards and I am very motivated to get work done properly.
+                    I am passionate about helping to create products that will assist people in their day-to-day lives.
+                </p>
+                <p>
+                    It is my hope that from this website you will be able to determine who I am in both a professional and personal sense.
+                    In the following sections you will see my work history, coding projects, skill set, and hobbies.
+                    I am very excited to begin my journey into a professional life of software development. Please let me know if you think I'm a good candidate.
+                    I hope you like what you see and I look forward to discussing any potential positions.
+                </p>
+                
+            </article>
+
+
+            <section id="experience">
+                <h2>Work History</h2>
+
+                <div class="job-container">
+                    <h3>Warehouse Worker - Forest Agri Services</h3>
+                    <div class="job">
+                        <p>September 30th 2021 - present: 
+                            <br>
+                            I alternate between the Forest and Watford locations with differing tasks depending on the location.
+                            At both locations I am tasked with customer service as well as stocking inventory and general maintenance.
+                            At the Watford location I handle animal feed and hydrogen peroxide tracking as well as monthly inspections and
+                            moisture tests on crop harvest samples.
+                        </p>
+                        <img src="images/work/ForestAgriServices.png">
+                    </div>
+                </div>
+
+                <div class="job-container">
+                    <h3>Central Poll Supervisor (CPA) - Elections Canada</h3>
+                    <div class="job">
+                        <img src="images/work/elections.png">
+                        <p>September 2021 (2021 federal election day and training days)
+                            <br>
+                            Along with 2 other CPAs, I managed four polling stations in Bothwell, Ontario. 
+                            I supervised nine election officers, filling in for their positions when required.
+                            We ensured an easy and efficient voting process for all eligible voters.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="job-container">
+                    <h3>Private (Recruit) - Canadian Armed Forces</h3>
+                    <div class="job">
+                        <p>
+                            March 18, 2020 - December 30, 2020:
+                            <br>
+                            I attended Basic training at Garnison Saint-Jean-sur-Richelieu before voluntarily releasing
+                            and being honourably discharged.
+                        </p>
+                        <img src="images/work/CAF.jpg">
+                    </div>
+                </div>
+
+                <div class="job-container">
+                    <h3>Dishwasher - Skeeter Barlows Bar and Grill</h3>
+                    <div class="job">
+                        <img src="images/work/Skeeter-Barlows.jpg">
+                        <p>
+                            2012 - 2014 (George Stathis) <br>
+                            2018 (Fred Kako)
+                            <br>
+                            My job included washing dishes, preparing food for line cooks, 
+                            checking/maintaining inventory, cleaning the kitchen, and on occasion,
+                            closing the restaurant at the end of the night.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="job-container">
+                    <h3>Fair Board Director - Forest Fall Fair</h3>
+                    <div class="job">
+                        <p>
+                            Every third weekend of September 2010 - 2021:
+                            <br>
+                            I assisted with the set up and take down of the Forest Fall Fair and help make sure that all visitors have
+                            a safe and fun weekend. Additionally, on the saturday night I assist with security for the nighttime event 
+                            <span style="font-style: italic;">Midnight Madness</span>.
+                            <br>
+                            <a href="https://www.facebook.com/forestfallfair/">Website</a>
+                        </p>
+                        <img src="images/work/ForestFallFair.jpg">
+                    </div>
+                </div>
+
+
+                <h2>Projects</h2>
+                <details class="project">
+                    <summary class="project-title">
+                        <h3>Space Pygame Project</h3>
+                    </summary>
+                    <a href="https://github.com/matthewrobinson4123/SpaceGame" class="link">Link</a>
+                    <p class="project-description">This is a space shooter game I built in Pygame. You shoot and dodge asteroids and enemy ships as you make your way
+                        through increasinlgy more difficult levels until you reach a boss level.
+                    </p>
+                </details>
+                <details class="project">
+                    <summary class="project-title">
+                        <h3>Java Calculator</h3>
+                    </summary>
+                    <a href="https://github.com/matthewrobinson4123/Calculator" class="link">Link</a>
+                    <p class="project-description">This is a calculator i made in Java. It has both standard and scientific UI as well as an executable file.</p>
+                </details>
+                <details class="project">
+                    <summary class="project-title">
+                        <h3>Student Directory Project</h3>
+                    </summary>
+                    <a href="https://github.com/matthewrobinson4123/cs2212-School-Registry-Assignment" class="link">Link</a>
+                    <p class="project-description">This was a group project for a software engineering class. Through terminal the user can login as
+                        either a admin, teacher, or student and access or change student info, course info, or teacher info, depending on access level.
+                    </p>
+                </details>
+                
+            </section>
+
+            <section id="skills">
+                <h2>My Skills</h2>
+                <div class="skills-container">
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-java"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-bitbucket"></i>
+                    <i class="fab fa-php"></i>
+                </div>
+            </section>
+
+            <section id="hobbies">
+                <div class="hobbies-container">
+                    <h2>My Hobbies</h2>
+                    <div class="hobby-image-container">
+                        <div class="hobby">
+                            <img src="./images/hobbies/mattboardgame.jpg">
+                            <p>
+                                I am an avid fan of board games of all kinds. My all time favourite board game is <span style="font-style: italic;">Axis and Allies: WW1 1914</span>.
+                                From my love for board games I have developed a strong sense of strategy. 
+                            </p>
+                        </div>
+                        <div class="hobby">
+                            <img src="./images/hobbies/gaming.jpg">
+                            <p>
+                                In addition to board games, I love video games. I have played video games my entire life, from NES to Xbox One. My preferred gaming platform is PC.
+                                I play on a custom built gaming desktop with dual monitors. Through gaming I continue to develop a mind for strategy as well as resource management and teamwork.
+                                When I discovered coding and my love for it I found that when I play video games I perceive it how a coder would, thinking about how to code is written, about objects
+                                interacting with one another and about efficiency within the applications.
+                            </p>
+                        </div>
+                        <div class="hobby">
+                            <img src="./images/hobbies/minipainting.jpg">
+                            <p>
+                                One of my more expensive hobbies is buying and painting Warhammer miniatures. I started this hobby in 2014 and have painted on and off since then. I have a skaven
+                                (ratmen) and high elf army and I am currently working away at painting a dwarf army. My love of Warhammer and continual practice painting has helped me to develop a
+                                keen eye for detail.
+                            </p>
+                        </div>
+                        <div class="hobby">
+                            <img src="./images/hobbies/fishing.jpg">
+                            <p>
+                                Fishing has always been a big part of my life. Having a cottage in Northern Ontario has allowed me to enjoy nature and all its beauty. Both my father 
+                                and maternal grandfather taught me how to fish and how to appreciate both the sport and the impact on nature. If you've ever been fishing, especially with
+                                a hook and worm you know it takes great amounts of patience. I think this learned patience translates into my personal and professional life as well, knowing 
+                                the desired end result and understanding that it may not be acheived.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
         </div>
-
-        <article class="about-me" id="about">
-            <h2>About Me</h2>
-            <p>
-                Hi! Welcome to my portfolio website! My name is <span style="font-weight: bold;">Matthew Robinson</span> and I am a programmer! I graduated from the University
-                of Western Ontario with a Bachelor of Science in Computer Science. I have always had a love for puzzles and in coding I have the opportunity to solve countless puzzles! 
-                I've spent my entire life playing video games. As I learned more about programming I discovered that I would pause while playing to try and understand how the 
-                code in the game would be written in order for it to work. I have experience with several programming languages from school, however, I have the most experience with
-                Object Oriented languages such as Java and Python.
-            </p>
-            <p>
-                On the non-technical side I am eager to learn new things and expand on my current abilities.
-                I can work collaboratively with others to achieve company standards and I am very motivated to get work done properly.
-                I am passionate about helping to create products that will assist people in their day-to-day lives.
-            </p>
-            <p>
-                It is my hope that from this website you will be able to determine who I am in both a professional and personal sense.
-                In the following sections you will see my work history, coding projects, skill set, and hobbies.
-                I am very excited to begin my journey into a professional life of software development. Please let me know if you think I'm a good candidate.
-                I hope you like what you see and I look forward to discussing any potential positions.
-            </p>
-            
-        </article>
-
-
-        <section id="experience">
-            <h2>Work History</h2>
-
-            <div class="job-container">
-                <h3>Warehouse Worker - Forest Agri Services</h3>
-                <div class="job">
-                    <p>September 30th 2021 - present: 
-                        <br>
-                        I alternate between the Forest and Watford locations with differing tasks depending on the location.
-                        At both locations I am tasked with customer service as well as stocking inventory and general maintenance.
-                        At the Watford location I handle animal feed and hydrogen peroxide tracking as well as monthly inspections and
-                        moisture tests on crop harvest samples.
-                    </p>
-                    <img src="images/work/ForestAgriServices.png">
-                </div>
-            </div>
-
-            <div class="job-container">
-                <h3>Central Poll Supervisor (CPA) - Elections Canada</h3>
-                <div class="job">
-                    <img src="images/work/elections.png">
-                    <p>September 2021 (2021 federal election day and training days)
-                        <br>
-                        Along with 2 other CPAs, I managed four polling stations in Bothwell, Ontario. 
-                        I supervised nine election officers, filling in for their positions when required.
-                        We ensured an easy and efficient voting process for all eligible voters.
-                    </p>
-                </div>
-            </div>
-
-            <div class="job-container">
-                <h3>Private (Recruit) - Canadian Armed Forces</h3>
-                <div class="job">
-                    <p>
-                        March 18, 2020 - December 30, 2020:
-                        <br>
-                        I attended Basic training at Garnison Saint-Jean-sur-Richelieu before voluntarily releasing
-                        and being honourably discharged.
-                    </p>
-                    <img src="images/work/CAF.jpg">
-                </div>
-            </div>
-
-            <div class="job-container">
-                <h3>Dishwasher - Skeeter Barlows Bar and Grill</h3>
-                <div class="job">
-                    <img src="images/work/Skeeter-Barlows.jpg">
-                    <p>
-                        2012 - 2014 (George Stathis) <br>
-                        2018 (Fred Kako)
-                        <br>
-                        My job included washing dishes, preparing food for line cooks, 
-                        checking/maintaining inventory, cleaning the kitchen, and on occasion,
-                        closing the restaurant at the end of the night.
-                    </p>
-                </div>
-            </div>
-
-            <div class="job-container">
-                <h3>Fair Board Director - Forest Fall Fair</h3>
-                <div class="job">
-                    <p>
-                        Every third weekend of September 2010 - 2021:
-                        <br>
-                        I assisted with the set up and take down of the Forest Fall Fair and help make sure that all visitors have
-                        a safe and fun weekend. Additionally, on the saturday night I assist with security for the nighttime event 
-                        <span style="font-style: italic;">Midnight Madness</span>.
-                        <br>
-                        <a href="https://www.facebook.com/forestfallfair/">Website</a>
-                    </p>
-                    <img src="images/work/ForestFallFair.jpg">
-                </div>
-            </div>
-
-
-            <h2>Projects</h2>
-            <details class="project">
-                <summary class="project-title">
-                    <h3>Space Pygame Project</h3>
-                </summary>
-                <a href="https://github.com/matthewrobinson4123/SpaceGame" class="link">Link</a>
-                <p class="project-description">This is a space shooter game I built in Pygame. You shoot and dodge asteroids and enemy ships as you make your way
-                    through increasinlgy more difficult levels until you reach a boss level.
-                </p>
-            </details>
-            <details class="project">
-                <summary class="project-title">
-                    <h3>Java Calculator</h3>
-                </summary>
-                <a href="https://github.com/matthewrobinson4123/Calculator" class="link">Link</a>
-                <p class="project-description">This is a calculator i made in Java. It has both standard and scientific UI as well as an executable file.</p>
-            </details>
-            <details class="project">
-                <summary class="project-title">
-                    <h3>Student Directory Project</h3>
-                </summary>
-                <a href="https://github.com/matthewrobinson4123/cs2212-School-Registry-Assignment" class="link">Link</a>
-                <p class="project-description">This was a group project for a software engineering class. Through terminal the user can login as
-                    either a admin, teacher, or student and access or change student info, course info, or teacher info, depending on access level.
-                </p>
-            </details>
-            
-        </section>
-
-        <section id="skills">
-            <h2>My Skills</h2>
-            <div class="skills-container">
-                <i class="fab fa-html5"></i>
-                <i class="fab fa-css3-alt"></i>
-                <i class="fab fa-js-square"></i>
-                <i class="fab fa-github"></i>
-                <i class="fab fa-java"></i>
-                <i class="fab fa-python"></i>
-                <i class="fab fa-bitbucket"></i>
-                <i class="fab fa-php"></i>
-            </div>
-        </section>
-
-        <section id="hobbies">
-            <div class="hobbies-container">
-                <h2>My Hobbies</h2>
-                <div class="hobby-image-container">
-                    <div class="hobby">
-                        <img src="./images/hobbies/mattboardgame.jpg">
-                        <p>
-                            I am an avid fan of board games of all kinds. My all time favourite board game is <span style="font-style: italic;">Axis and Allies: WW1 1914</span>.
-                            From my love for board games I have developed a strong sense of strategy. 
-                        </p>
-                    </div>
-                    <div class="hobby">
-                        <img src="./images/hobbies/gaming.jpg">
-                        <p>
-                            In addition to board games, I love video games. I have played video games my entire life, from NES to Xbox One. My preferred gaming platform is PC.
-                            I play on a custom built gaming desktop with dual monitors. Through gaming I continue to develop a mind for strategy as well as resource management and teamwork.
-                            When I discovered coding and my love for it I found that when I play video games I perceive it how a coder would, thinking about how to code is written, about objects
-                            interacting with one another and about efficiency within the applications.
-                        </p>
-                    </div>
-                    <div class="hobby">
-                        <img src="./images/hobbies/minipainting.jpg">
-                        <p>
-                            One of my more expensive hobbies is buying and painting Warhammer miniatures. I started this hobby in 2014 and have painted on and off since then. I have a skaven
-                            (ratmen) and high elf army and I am currently working away at painting a dwarf army. My love of Warhammer and continual practice painting has helped me to develop a
-                            keen eye for detail.
-                        </p>
-                    </div>
-                    <div class="hobby">
-                        <img src="./images/hobbies/fishing.jpg">
-                        <p>
-                            Fishing has always been a big part of my life. Having a cottage in Northern Ontario has allowed me to enjoy nature and all its beauty. Both my father 
-                            and maternal grandfather taught me how to fish and how to appreciate both the sport and the impact on nature. If you've ever been fishing, especially with
-                            a hook and worm you know it takes great amounts of patience. I think this learned patience translates into my personal and professional life as well, knowing 
-                            the desired end result and understanding that it may not be acheived.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
+    
 
         <footer class="links" id="links">
             <a href="./contact.html"><h3>Thanks for reading, contact me!</h3></a>
