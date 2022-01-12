@@ -3,6 +3,15 @@
     padding: 0px;
     box-sizing: border-box;
     text-align: center;
+    background-color: dimgrey;
+}
+
+header{
+    background-color: black;
+}
+
+.navbar{
+    text-decoration: none;
 }
 
 body{
