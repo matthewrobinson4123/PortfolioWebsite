@@ -101,11 +101,19 @@ section, article{
     margin: 50px auto;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .job p, .job img{
-    width: 50%;
     height: auto;
+}
+
+.job p{
+    width: 50%;
+}
+
+.job img{
+    width: 25%;
 }
 
 details summary{
