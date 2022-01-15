@@ -15,6 +15,10 @@ body{
     font-size: 24px;
 }
 
+a{
+    color: black;
+}
+
 /* HEADER */
 header{
     background: #000;
