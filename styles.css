@@ -58,9 +58,6 @@ nav li:active{
     background-color: red;
 }
 
-section, article{
-    padding: 85px;
-}
 
 /* TITLE AND PICTURE */
 .me{
@@ -75,28 +72,44 @@ section, article{
     line-height: 45rem;
 }
 
-.about-me{
 
-}
-
-
+/* SKILLS */
 .skills-container, .contact-container{
     display: flex;
     width: 100%;
     justify-content: space-around;
 }
 
-
 .fab {
     font-size: 2em;
     width: 2em;
 }
 
+
+/* MAIN */
 .main{
     margin: 85px auto;
     margin-bottom: 0px;
 }
 
+section, article{
+    padding: 85px;
+}
+
+h2{
+    padding: 25px;
+}
+
+
+/* ABOUT ME */
+#about{
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+}
+
+
+/* JOB SECTION */
 .job-container{
     margin: 85px auto;
 }
@@ -118,12 +131,86 @@ section, article{
 
 .job img{
     width: 25%;
+    padding: 15px;
 }
 
+
+/* PROJECTS */
 details summary{
     cursor: pointer;
+    margin: 25px auto;
 }
 
 details summary > *{
     display: inline;
+}
+
+.contents{
+    width: 70%;
+    margin: auto;
+}
+
+.contents a:hover{
+    color:blanchedalmond;
+    background-color: black;
+}
+
+.contents a:active{
+    color: black;
+    background-color: red;
+}
+
+.contents a{
+    max-width: 30px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#projects p a:hover{
+    color: red;
+}
+
+
+/* HOBBIES */
+.hobby-image-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 100%;
+}
+
+.hobby{
+    margin: auto;
+    padding: 50px;
+    font-size: 75%;
+    max-width: 50%;
+}
+
+.hobby img{
+    height: 300px;
+    width: auto;
+    border-radius: 100%;
+}
+
+/* FOOTER */
+footer a h3{
+    width: 25%;
+    margin: auto;
+}
+
+footer a h3:hover{
+    color:white;
+    background-color: black;
+}
+
+footer a h3:active{
+    color: black;
+    background-color: crimson;
+}
+
+footer h5{
+    margin-top: 50px;
+    padding: 50px;
+    background-color: black;
+    color: blanchedalmond;
 }
