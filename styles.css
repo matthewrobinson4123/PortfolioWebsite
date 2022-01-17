@@ -50,6 +50,10 @@ nav li{
     text-align: center;
 }
 
+nav a{
+    margin: auto;
+}
+
 nav li:hover{
     background-color: darkred;
 }
@@ -213,4 +217,36 @@ footer h5{
     padding: 50px;
     background-color: black;
     color: blanchedalmond;
+}
+
+
+
+/* CONTACT PAGE */
+
+.contact-container{
+    justify-content:center;
+    margin: 50px auto;
+}
+
+.contact-container i:hover{
+    color: red;
+}
+
+footer.contact{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
+/* CELLPHONE SIZE */
+
+@media screen and (max-width: 480px){
+
+    
+
 }
