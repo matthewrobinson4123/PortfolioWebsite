@@ -123,9 +123,6 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.job p, .job img{
     height: auto;
 }
 
@@ -136,6 +133,10 @@ h2{
 .job img{
     width: 25%;
     padding: 15px;
+}
+
+.job p a:hover{
+    color: red;
 }
 
 
@@ -197,19 +198,19 @@ details summary > *{
 }
 
 /* FOOTER */
-footer a h3{
-    width: 25%;
+footer a h4{
+    width: fit-content;
     margin: auto;
 }
 
-footer a h3:hover{
+footer a h4:hover{
     color:white;
     background-color: black;
 }
 
-footer a h3:active{
+footer a h4:active{
     color: black;
-    background-color: crimson;
+    background-color: red;
 }
 
 footer h5{
@@ -228,7 +229,7 @@ footer h5{
     margin: 50px auto;
 }
 
-.contact-container i:hover{
+.contact-container i:hover, .resume i:hover{
     color: red;
 }
 
