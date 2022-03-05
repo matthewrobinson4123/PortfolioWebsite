@@ -1,21 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+}
 header{
-    background: #000;
-    position: fixed;
+    background-color: black;
     width: 100%;
-    overflow: hidden;
+    margin: auto;
 }
 a{
     color: black;
 }
 nav {
     padding-top: 1rem;
+    width: 100%;
 }
 nav ul{
     list-style: none;
     display: flex;
     justify-content: space-between;
 }
-
 nav li{
     padding: 5px;
     margin: 5px 50px;
@@ -27,18 +33,23 @@ nav li{
     font-weight: bold;
     text-align: center;
 }
-
 nav a{
     margin: auto;
+    text-decoration: none;
 }
-
 nav li:hover{
     background-color: darkred;
 }
-
 nav li:active{
     background-color: red;
 }
+.minesweeper-container{
+    margin: auto;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+/*GAME*/
 .tile {
     width: 16px;
     height: 16px;

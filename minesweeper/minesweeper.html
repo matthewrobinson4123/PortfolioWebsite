@@ -14,31 +14,33 @@
             <!--NAVBAR-->
             <nav>
                 <ul>
-                    <a href="./index.html"><li>Home</li></a>
+                    <a href="../index.html"><li>Home</li></a>
                 </ul>
             </nav>
         </header>
-        
-        <h1> Minesweeper </h1>
 
-        <div>
-            <select id="difficulty" onchange="setDifficulty();">
-               <option value="0">Easy</option>
-               <option value="1">Medium</option>
-               <option value="2">Hard</option>
-            </select>
+        <div class="minesweeper-container">
+            <h1> Minesweeper </h1>
+
+            <div>
+                <select id="difficulty" onchange="setDifficulty();">
+                <option value="0">Easy</option>
+                <option value="1">Medium</option>
+                <option value="2">Hard</option>
+                </select>
+                
+                <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                <span>Remaining Mines:</span>
+                <span id="flagCount" > </span>
+                <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                <span>Time:</span>
+                <span id="timer" > </span>
+                <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+            </div>
             
-            <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-            <span>Remaining Mines:</span>
-            <span id="flagCount" > </span>
-            <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-            <span>Time:</span>
-            <span id="timer" > </span>
-            <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+            <div id="smiley" class="smiley" onmousedown="smileyDown();" onmouseup="smileyUp();" onclick="startGame();"></div>
+            
+            <div id="minefield"></div>
         </div>
-        
-        <div id="smiley" class="smiley" onmousedown="smileyDown();" onmouseup="smileyUp();" onclick="startGame();"></div>
-        
-        <div id="minefield"></div>
     </body>
 </html>
