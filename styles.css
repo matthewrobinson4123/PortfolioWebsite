@@ -13,6 +13,7 @@ body{
     display: flex;
     flex-direction: column;
     font-size: 24px;
+    background-color: grey;
 }
 
 a{
@@ -64,16 +65,14 @@ nav li:active{
 
 
 /* TITLE AND PICTURE */
+
 .me{
-    background-image: url("./images/MattCloseUp.jpg");
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position-x: center;
-    height: 400px;
-    width: 100%;
     color: blanchedalmond;
     font-size: 2rem;
-    line-height: 45rem;
+}
+
+.me img{
+    width: 75%;
 }
 
 
@@ -104,9 +103,17 @@ h2{
     padding: 25px;
 }
 
+.green{
+    background-color: rgba(18, 119, 0, 0.781);
+}
+
+.tan{
+    background-color: rgb(224, 184, 123);
+}
+
 
 /* ABOUT ME */
-#about{
+#about, #experience, #projects, #skills, #hobbies{
     width: 75%;
     margin: auto;
     padding: 10px;
